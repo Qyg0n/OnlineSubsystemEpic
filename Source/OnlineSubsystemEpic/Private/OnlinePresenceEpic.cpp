@@ -385,7 +385,7 @@ void FOnlinePresenceEpic::SetPresence(const FUniqueNetId& User, const FOnlineUse
 
 void FOnlinePresenceEpic::QueryPresence(const FUniqueNetId& User, const FOnPresenceTaskCompleteDelegate& Delegate)
 {
-	FUniqueNetIdEpic const& epicUser = static_cast<FUniqueNetIdEpic>(User);
+	FUniqueNetIdEpic const epicUser = static_cast<FUniqueNetIdEpic>(User);
 	if (epicUser.IsEpicAccountIdValid())
 	{
 		EOS_Presence_QueryPresenceOptions queryPresenceOptions = {
