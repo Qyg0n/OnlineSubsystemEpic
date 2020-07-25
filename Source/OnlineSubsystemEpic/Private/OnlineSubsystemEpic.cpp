@@ -2,6 +2,7 @@
 #include "OnlineIdentityInterfaceEpic.h"
 #include "OnlineSessionInterfaceEpic.h"
 #include "OnlineUserInterfaceEpic.h"
+#include "OnlinePresenceEpic.h"
 #include "Utilities.h"
 #include <string>
 
